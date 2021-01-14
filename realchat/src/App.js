@@ -9,14 +9,9 @@ import 'firebase/analytics';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 firebase.initializeApp({
-  apiKey: "AIzaSyBNoJaHonsmAWV5dtpdZbbqvFhbJzpYymQ",
-  authDomain: "realchat-df9cf.firebaseapp.com",
-  projectId: "realchat-df9cf",
-  storageBucket: "realchat-df9cf.appspot.com",
-  messagingSenderId: "488645796861",
-  appId: "1:488645796861:web:e4fba745b2d12c3ca22f94",
-  measurementId: "G-8SYHXVMPXB"
+  // Put Firebase JS configuration here
 })
+
 const auth = firebase.auth();
 const firestore = firebase.firestore();
 const analytics = firebase.analytics();
